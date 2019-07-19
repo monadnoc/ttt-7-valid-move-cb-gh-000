@@ -3,6 +3,7 @@ def valid_move?(board, ind)
     if position_taken?(board, ind)
       True
     else
+      False
     end
 end
 
