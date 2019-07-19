@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def some_new_fabulous_method
+def valid_move?(board, ind)
     if position_taken?(board, ind)
       True
     else
